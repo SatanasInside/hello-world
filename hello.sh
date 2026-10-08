@@ -1,2 +1,5 @@
 #!/usr/bin/env bash
-echo "Hello $1"
+
+read -p "Prénom : " variable
+echo "Hello $variable"
+
